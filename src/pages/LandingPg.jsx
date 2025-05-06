@@ -2,6 +2,7 @@ import React from 'react'
 import './LandingPg.scss'
 import Navbar from '../components/Navbar'
 import { FaCircle } from "react-icons/fa";
+import Button from '../components/Button';
 
 const LandingPg = () => {
     return (
@@ -21,8 +22,8 @@ const LandingPg = () => {
                         </div>
 
                         <div className="landingBtns">
-                            <button>Read more</button>
-                            <button className='orange'>Get A Quote</button>
+                            <div className="read-more"><Button title='Read more' /></div>
+                            <div className="get-quote"><Button title='Get A Quote' /></div>
                         </div>
                     </div>
 

@@ -33,30 +33,22 @@
     }
 
     .landingBtns {
-        button {
+        display: flex;
+
+        Button {
+            padding: 15px 45px;
+            cursor: pointer;
+        }
+
+        .read-more Button {
             background-color: white;
             color: black;
-            font-size: 15px;
-            padding: 15px 45px;
             margin-right: 10px;
-            border: none;
-            cursor: pointer;
-            transition: 0.3s;
 
             &:hover {
                 background-color: transparent;
                 color: white;
                 border: 1px solid white;
-            }
-        }
-
-        .orange {
-            background-color: #f1db25;
-            color: white;
-
-            &:hover {
-                color: #f1db25;
-                border: 1px solid #f1db25;
             }
         }
     }

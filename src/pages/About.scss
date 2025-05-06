@@ -21,36 +21,21 @@
         right: 25px;
         padding: 50px 25px;
 
-        h1 {
-
-            // font-family: 'Courier New', Courier, monospace;
-            &::after {
-                content: "";
-                background-color: #f1db25;
-                position: absolute;
-                top: 27%;
-                left: 25px;
-                // bottom: 0;
-                width: 40px;
-                height: 7px;
-                border-radius: 5px;
-            }
-        }
-
-        p {
-            margin-block: 25px 20px;
-            line-height: 1.6;
-        }
-
-        Button {
+        h1::after {
+            content: "";
             background-color: #f1db25;
-            color: white;
-            text-transform: uppercase;
-
-            &:hover {
-                color: #f1db25;
-                border: 1px solid #f1db25;
-            }
+            position: absolute;
+            top: 27%;
+            left: 25px;
+            width: 40px;
+            height: 7px;
+            border-radius: 5px;
         }
     }
+
+    p {
+        margin-block: 25px 20px;
+        line-height: 1.6;
+    }
+
 }

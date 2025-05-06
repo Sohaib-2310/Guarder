@@ -1,0 +1,29 @@
+.servicesContainer {
+    background-color: #1c1c1c;
+    height: 100vh;
+    text-align: center;
+    padding-top: 90px;
+
+
+    h1 {
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .servicesCards {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 25px;
+        margin-inline: 40px;
+        margin-block: 67px;
+
+        .card {
+            background-color: white;
+        }
+    }
+
+    .icon {
+        width: 10%;
+    }
+}
