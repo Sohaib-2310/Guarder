@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.scss'
 import aboutImage from '../assets/about-img.jpg'
+import Button from '../components/Button'
 
 const About = () => {
     return (
@@ -18,7 +19,7 @@ const About = () => {
                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                         voluptate velit
                     </p>
-                    <button>Read More</button>
+                    <div className="but"><Button /></div>
                 </div>
             </div>
         </>

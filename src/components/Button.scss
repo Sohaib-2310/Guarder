@@ -1,0 +1,17 @@
+.btnContainer {
+    button {
+        background-color: white;
+        color: black;
+        font-size: 15px;
+        padding: 15px 35px;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: transparent;
+            color: white;
+            border: 1px solid white;
+        }
+    }
+}
