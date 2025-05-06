@@ -1,0 +1,83 @@
+.hero {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/hero-bg.jpg');
+}
+
+.landingContainer {
+    margin: 105px;
+    margin-bottom: 40px;
+    color: white;
+    width: auto;
+    font-family: "Poppins", sans-serif;
+
+
+    .landingHeading {
+        text-transform: uppercase;
+        font-size: 3rem;
+        font-weight: 700;
+        padding-bottom: 30px;
+
+        span {
+            display: block;
+        }
+
+        .orange {
+            color: #f1db25;
+        }
+    }
+
+    .landingPara {
+        padding-bottom: 30px;
+        line-height: 1.6;
+        font-weight: 500;
+    }
+
+    .landingBtns {
+        button {
+            background-color: white;
+            color: black;
+            font-size: 15px;
+            padding: 15px 45px;
+            margin-right: 10px;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+
+            &:hover {
+                background-color: transparent;
+                color: white;
+                border: 1px solid white;
+            }
+        }
+
+        .orange {
+            background-color: #f1db25;
+            color: white;
+
+            &:hover {
+                color: #f1db25;
+                border: 1px solid #f1db25;
+            }
+        }
+    }
+}
+
+.landingIndicators {
+    ul {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-right: 100px;
+        cursor: pointer;
+
+        li {
+            padding-right: 8px;
+            font-size: 20px;
+            color: #f1db25;
+        }
+
+        .active {
+            color: white;
+        }
+    }
+}
