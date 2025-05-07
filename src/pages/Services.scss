@@ -9,7 +9,6 @@
     h1 {
         color: white;
         text-transform: uppercase;
-        font-family: "Poppins", sans-serif;
         font-weight: 700;
 
         &::after {
@@ -56,5 +55,61 @@
 
     Button {
         padding-block: 10px;
+    }
+}
+
+.ourClient {
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    padding-inline: 45px;
+
+    .slideBtn {
+        font-size: 45px;
+        margin-top: 70px;
+        cursor: pointer;
+        transition: 0.3;
+
+        &:hover {
+            color: #f1db25;
+        }
+    }
+
+    .clientContainer {
+        height: auto;
+        text-align: center;
+        position: relative;
+
+        h1 {
+            color: #1c1c1c;
+            text-transform: uppercase;
+            font-weight: 700;
+            padding-bottom: 60px;
+
+            &::after {
+                content: "";
+                background-color: #f1db25;
+                position: absolute;
+                top: 15%;
+                left: 48%;
+                width: 40px;
+                height: 7px;
+                border-radius: 5px;
+            }
+        }
+
+        .clientInfo {
+            img {
+                width: 12%;
+            }
+
+            .clientName {
+                padding-block: 8px 20px;
+                font-weight: 700;
+                font-size: 18px;
+            }
+        }
     }
 }
