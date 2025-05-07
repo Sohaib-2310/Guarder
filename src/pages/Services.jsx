@@ -45,7 +45,7 @@ const Services = () => {
             </div>
 
             <div className="ourClient">
-                <div className="slideBtn left">
+                <div className="slideBtn">
                     <FaCircleChevronLeft />
                 </div>
 
@@ -60,7 +60,7 @@ const Services = () => {
                         quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
                 </div>
 
-                <div className="slideBtn left">
+                <div className="slideBtn">
                     <FaCircleChevronRight />
                 </div>
             </div>
