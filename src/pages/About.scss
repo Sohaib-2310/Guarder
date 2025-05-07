@@ -19,23 +19,26 @@
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
         position: absolute;
         right: 25px;
-        padding: 50px 25px;
+        padding: 40px 25px;
 
-        h1::after {
-            content: "";
-            background-color: #f1db25;
-            position: absolute;
-            top: 27%;
-            left: 25px;
-            width: 40px;
-            height: 7px;
-            border-radius: 5px;
+        h1 {
+            text-transform: uppercase;
+
+            &::after {
+                content: "";
+                background-color: #f1db25;
+                position: absolute;
+                top: 25%;
+                left: 25px;
+                width: 40px;
+                height: 7px;
+                border-radius: 5px;
+            }
+        }
+
+        p {
+            margin-block: 15px 20px;
+            line-height: 1.6;
         }
     }
-
-    p {
-        margin-block: 25px 20px;
-        line-height: 1.6;
-    }
-
 }

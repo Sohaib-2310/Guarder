@@ -1,8 +1,8 @@
 import React from 'react'
 import './LandingPg.scss'
 import Navbar from '../components/Navbar'
-import { FaCircle } from "react-icons/fa";
 import Button from '../components/Button';
+import { FaCircle } from "react-icons/fa";
 
 const LandingPg = () => {
     return (
@@ -13,8 +13,8 @@ const LandingPg = () => {
                 <div className="landingContainer">
                     <div className="landingText">
                         <div className="landingHeading">
-                            <span>Your Saftey</span>
-                            <span className='orange'>Our Responsibility</span>
+                            <p>Your Saftey</p>
+                            <p className='orange'>Our Responsibility</p>
                         </div>
 
                         <div className="landingPara">

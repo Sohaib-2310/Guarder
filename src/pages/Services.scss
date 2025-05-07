@@ -1,29 +1,60 @@
 .servicesContainer {
     background-color: #1c1c1c;
-    height: 100vh;
+    height: 110vh;
     text-align: center;
-    padding-top: 90px;
+    padding-block: 85px 100px;
+    position: relative;
 
 
     h1 {
         color: white;
         text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+
+        &::after {
+            content: "";
+            background-color: #f1db25;
+            position: absolute;
+            top: 21%;
+            left: 48%;
+            width: 40px;
+            height: 7px;
+            border-radius: 5px;
+        }
     }
 
     .servicesCards {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        gap: 25px;
+        gap: 30px;
         margin-inline: 40px;
-        margin-block: 67px;
+        margin-block: 60px;
 
         .card {
             background-color: white;
+            padding: 23px;
         }
     }
 
     .icon {
-        width: 10%;
+        width: 23%;
+    }
+
+    .heading {
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-block: 18px;
+        font-size: 18px;
+    }
+
+    .details {
+        line-height: 1.5;
+        margin-bottom: 23px;
+    }
+
+    Button {
+        padding-block: 10px;
     }
 }

@@ -4,22 +4,16 @@
 }
 
 .landingContainer {
-    margin-inline: 50px 105px;
-    margin-block: 90px 80px;
+    margin-inline: 46px 105px;
+    margin-block: 66px 30px;
     color: white;
     width: auto;
-    font-family: "Poppins", sans-serif;
-
 
     .landingHeading {
         text-transform: uppercase;
         font-size: 3rem;
         font-weight: 700;
-        padding-bottom: 30px;
-
-        span {
-            display: block;
-        }
+        // padding-bottom: 10px;
 
         .orange {
             color: #f1db25;
@@ -27,9 +21,10 @@
     }
 
     .landingPara {
-        padding-bottom: 30px;
+        margin-block: 25px 30px;
         line-height: 1.6;
         font-weight: 500;
+        width: 60%;
     }
 
     .landingBtns {
