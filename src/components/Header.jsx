@@ -1,11 +1,11 @@
 import React from 'react'
-import './Guards.scss'
+import './Header.scss'
 
-const Guards = () => {
+const Header = () => {
     return (
         <>
         </>
     )
 }
 
-export default Guards
+export default Header
