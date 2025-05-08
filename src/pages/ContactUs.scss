@@ -1,0 +1,52 @@
+.contact {
+    height: 130vh;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/contact-bg.jpg');
+
+    .contactContainer {
+        padding-top: 85px;
+        position: relative;
+        color: white;
+
+        form {
+            margin-block: 63px;
+
+            input {
+                display: block;
+                margin: auto;
+                background-color: white;
+                outline: none;
+                border: none;
+                font-size: 16px;
+                width: 655px;
+                height: 45px;
+                margin-top: 30px;
+                padding-left: 15px;
+
+                &::placeholder {
+                    color: black;
+                }
+            }
+
+            #msg {
+                height: 120px;
+            }
+        }
+
+        Button {
+            padding: 12px 62px;
+            font-weight: 700;
+
+            &::after {
+                content: "";
+                background-color: #f1db25;
+                position: absolute;
+                top: 20%;
+                left: 48%;
+                width: 40px;
+                height: 7px;
+                border-radius: 5px;
+            }
+        }
+    }
+}
