@@ -1,0 +1,73 @@
+footer {
+    background-color: #101010;
+    color: white;
+
+    .footerContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 30px;
+        padding: 70px 42px;
+
+        .heading {
+            font-size: 24px;
+            padding-bottom: 20px;
+        }
+
+        .companyInfo,
+        .links,
+        .contacts,
+        .newsLetter {
+            flex: 1;
+        }
+
+        .contacts {
+            .icon {
+                font-size: 20px;
+                padding-right: 5px;
+                cursor: pointer;
+            }
+
+            .location,
+            .phone {
+                padding-bottom: 5px;
+            }
+        }
+
+        .newsLetter {
+            input {
+                outline: none;
+                border: none;
+                width: 100%;
+                padding: 7px 10px;
+                font-size: 16px;
+                border-radius: 30px;
+            }
+
+            button {
+                margin-top: 15px;
+                border: none;
+                background-color: #f1db25;
+                color: white;
+                font-size: 16px;
+                padding: 8px 35px;
+                border-radius: 30px;
+                cursor: pointer;
+            }
+
+            .socialIcons {
+                font-size: 20px;
+                display: flex;
+                gap: 5px;
+                margin-top: 28px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .copyright {
+        text-align: center;
+        color: rgba(254, 254, 255, 0.7);
+        padding-bottom: 20px;
+    }
+}
