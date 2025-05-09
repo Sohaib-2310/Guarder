@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.scss'
-import aboutImage from '../assets/about-img.jpg'
-import Button from '../components/Button'
+import aboutImage from '../../assets/about-img.jpg'
+import Button from '../../components/Button/Button'
 
 const About = () => {
     return (
@@ -19,7 +19,7 @@ const About = () => {
                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                         voluptate velit
                     </p>
-                    <Button title='READ MORE'/>
+                    <Button title='READ MORE' />
                 </div>
             </div>
         </>

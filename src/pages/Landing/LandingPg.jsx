@@ -1,7 +1,7 @@
 import React from 'react'
 import './LandingPg.scss'
-import Navbar from '../components/Navbar'
-import Button from '../components/Button';
+import Navbar from '../../components/Navbar/Navbar'
+import Button from '../../components/Button/Button';
 import { FaCircle } from "react-icons/fa";
 
 const LandingPg = () => {

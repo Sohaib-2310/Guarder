@@ -1,11 +1,11 @@
 import React from 'react'
 import './Services.scss'
-import Button from '../components/Button'
-import HomeIcon from '../assets/s1.svg'
-import OfficeIcon from '../assets/s2.svg'
-import BodyguardIcon from '../assets/s3.svg'
+import Button from '../../components/Button/Button'
+import HomeIcon from '../../assets/s1.svg'
+import OfficeIcon from '../../assets/s2.svg'
+import BodyguardIcon from '../../assets/s3.svg'
 import { FaCircleChevronLeft, FaCircleChevronRight } from "react-icons/fa6";
-import clientImg from '../assets/client.jpeg'
+import clientImg from '../../assets/client.jpeg'
 
 const Services = () => {
     return (
