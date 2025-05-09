@@ -1,0 +1,66 @@
+    .guards {
+        height: 137vh;
+        text-align: center;
+
+        .guardsContainer {
+            margin-block: 82px 20px;
+            position: relative;
+
+            .details {
+                margin-inline: 40px;
+
+                h1::after {
+                    content: "";
+                    background-color: #f1db25;
+                    position: absolute;
+                    top: 7%;
+                    left: 48%;
+                    width: 40px;
+                    height: 7px;
+                    border-radius: 5px;
+                }
+
+                p {
+                    margin-top: 15px;
+                }
+            }
+
+            .cardsContainer {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-inline: 30px;
+                margin-block: 60px 40px;
+
+                .cards {
+                    max-width: 360px;
+                    margin: auto;
+                    position: relative;
+
+                    img {
+                        width: 100%;
+                        display: block;
+                    }
+
+                    .cardDetail {
+                        position: absolute;
+                        bottom: 0;
+                        z-index: 2;
+                        width: 100%;
+                        background-color: rgba(28, 28, 28, 0.75);
+                        color: white;
+                        text-align: center;
+                        font-size: 20px;
+                        padding: 25px 15px;
+                    }
+
+                }
+
+            }
+
+            Button {
+                padding-inline: 48px;
+            }
+
+        }
+    }
